@@ -1,6 +1,8 @@
 function SetColorScheme(color)
-	color = color or "rose-pine"
+	-- color = color or "rose-pine"
+    color = color or "catppuccin"
     vim.cmd.colorscheme(color)
+    -- vim.o.background = "light"
     vim.o.background = "light"
 
 	vim.api.nvim_set_hl(0, "Normal", { bg = "none" })
