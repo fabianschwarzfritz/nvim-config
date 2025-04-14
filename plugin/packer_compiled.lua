@@ -89,6 +89,11 @@ _G.packer_plugins = {
     path = "/Users/sfk9agr/.local/share/nvim/site/pack/packer/start/cmp-nvim-lsp",
     url = "https://github.com/hrsh7th/cmp-nvim-lsp"
   },
+  ["copilot.vim"] = {
+    loaded = true,
+    path = "/Users/sfk9agr/.local/share/nvim/site/pack/packer/start/copilot.vim",
+    url = "https://github.com/github/copilot.vim"
+  },
   ["gruvbox.nvim"] = {
     loaded = true,
     path = "/Users/sfk9agr/.local/share/nvim/site/pack/packer/start/gruvbox.nvim",
@@ -108,6 +113,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "/Users/sfk9agr/.local/share/nvim/site/pack/packer/start/mason.nvim",
     url = "https://github.com/williamboman/mason.nvim"
+  },
+  monokai = {
+    loaded = true,
+    path = "/Users/sfk9agr/.local/share/nvim/site/pack/packer/start/monokai",
+    url = "https://github.com/polirritmico/monokai-nightasty.nvim"
   },
   ["nvim-cmp"] = {
     loaded = true,
