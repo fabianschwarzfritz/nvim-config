@@ -16,6 +16,7 @@ return require('packer').startup(function(use)
   use { 'catppuccin/nvim', as = 'catppuccin' }
   use { 'folke/tokyonight.nvim', as = 'tokyonight' }
   use { 'ellisonleao/gruvbox.nvim' }
+  use { 'polirritmico/monokai-nightasty.nvim', as = 'monokai' }
 
   use('nvim-treesitter/nvim-treesitter', {run = ':TSUpdate'})
   use('nvim-treesitter/playground')
